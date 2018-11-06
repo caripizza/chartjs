@@ -47,11 +47,11 @@ function drawGraphs() {
 		labels : ["January","February","March","April","May","June"],
 		datasets : [
 		{
-				fillColor : "rgba(172,194,132,0.4)",
-				strokeColor : "#ACC26D",
-				pointColor : "#fff",
-				pointStrokeColor : "#9DB86D",
-				data : [203,156,99,251,305,247]
+            fillColor : "rgba(172,194,132,0.4)",
+            strokeColor : "#ACC26D",
+            pointColor : "#fff",
+            pointStrokeColor : "#9DB86D",
+            data : [203,156,99,251,305,247]
 			}
 		]
 	}
@@ -99,8 +99,8 @@ function drawGraphs() {
 	labels : ["January","February","March","April","May","June"],
 	datasets : [
 		{
-			fillColor : "#48A497",
-			strokeColor : "#48A4D1",
+			fillColor : "rgba(200,300,1000,0.2)",
+			strokeColor : "rgba(255, 206, 86, 0.2)",
 			data : [456,479,324,569,702,600]
 		},
 		{

@@ -1,21 +1,52 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: sans-serif;
+    background-color: purple;
 
-body {
-    /* display: block; */
 }
 
 header {
-    background-color: yellowgreen;
-    color: purple;
+    color: white;
     text-align: center;
     font-size: 24px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 20px 0px 20px 0px;
+
 }
+
+body {
+    margin: 0px 0px 30px 0px;
+
+}
+
+
 
 main {
     text-align: center;
+    background-image: -webkit-linear-gradient(purple, rgba(0, 0, 255, 0.591));
+
 }
 
+a {
+    color: goldenrod;
+    font-size: 16px;
+}
+
+a:hover {
+    color: white;
+    font-style: italic;
+}
+
+span {
+    color: goldenrod;
+    text-align: center;
+    display: block;
+    padding: 50px;
+    background-color: transparent;
+}
+
+#myChart {
+    margin: 20px auto;
+}
+
+/* ------- mobile -------*/
+/* @media screen and (max-width: 500px) {
+} */
