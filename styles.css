@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: block;
+}
+
+header {
+    background-color: yellowgreen;
+    color: purple;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
