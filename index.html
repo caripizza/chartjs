@@ -3,19 +3,16 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Chart.js demo</title>
-	
 	<!-- import plugin script -->
-	<script src='Chart.min.js'></script>
-	
+	<script src="Chart.min.js"></script>
 </head>
 <body>
-
 <!-- line chart canvas element -->
 <canvas id="buyers" width="600" height="400"></canvas>
-
+<hr>
 <!-- pie chart canvas element -->
 <canvas id="countries" width="600" height="400"></canvas>
-
+<hr>
 <!-- bar chart canvas element -->
 <canvas id="income" width="600" height="400"></canvas>
 <script>
@@ -95,7 +92,7 @@
 	// draw bar chart
 	new Chart(income).Bar(barData);
 </script>
-
+<hr>
 <canvas id="myChart" width="400" height="400"></canvas>
 <script>
 var ctx = document.getElementById("myChart").getContext('2d');
