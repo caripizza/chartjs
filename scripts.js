@@ -1,4 +1,4 @@
-/* exported draw drawGraph */
+/* exported draw drawGraphs */
 
 function draw() {
 var ctx = document.getElementById("myChart").getContext('2d');

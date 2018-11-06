@@ -7,23 +7,22 @@
 	<title>Chart.js demo 1</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
+<body onload="drawGraphs();">
 <header>
 	Welcome to Page 1<br>
-        <a href="altgraph.html" alt="Page 2">Page 2</a>
-    </header>
-<body onload="drawGraphs()">
-<!-- line chart canvas element -->
-<canvas id="buyers" width="600" height="400"></canvas>
-<hr>
-<!-- pie chart canvas element -->
-<canvas id="countries" width="600" height="400"></canvas>
-<hr>
-<!-- bar chart canvas element -->
-<canvas id="income" width="600" height="400"></canvas>
-
-
-<script src="scripts.js"></script>
+    <a href="altgraph.html" alt="Page 2">Page 2</a>
+	</header>
+	<main>
+	<!-- line chart canvas element -->
+	<canvas id="buyers" width="600" height="400"></canvas>
+	<hr>
+	<!-- pie chart canvas element -->
+	<canvas id="countries" width="600" height="400"></canvas>
+	<hr>
+	<!-- bar chart canvas element -->
+	<canvas id="income" width="600" height="400"></canvas>
+	</main>
 <script src="Chart.min.js"></script>
-
+<script src="scripts.js"></script>
 </body>
 </html>

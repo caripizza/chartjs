@@ -3,7 +3,7 @@
 }
 
 body {
-    display: block;
+    /* display: block; */
 }
 
 header {
@@ -14,3 +14,8 @@ header {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+main {
+    text-align: center;
+}
+
